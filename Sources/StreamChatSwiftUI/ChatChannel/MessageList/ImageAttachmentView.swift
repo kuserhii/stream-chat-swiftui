@@ -306,6 +306,7 @@ struct SingleImageView: View {
             source: source,
             width: width,
             height: height,
+            shouldSetFrame: false,
             imageTapped: imageTapped,
             index: index
         )
